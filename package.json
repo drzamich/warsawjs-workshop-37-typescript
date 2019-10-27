@@ -20,7 +20,7 @@
         "lint": "tslint -c tslint.json './src/**/*.{ts,tsx}' --format msbuild",
         "test": "jest --runInBand",
         "build": "tsc -p .",
-        "clean": "rm ./bin -rf",
+        "clean": "rm -rf bin",
         "autofix": "tslint --fix --project .",
         "publish": "git push origin master"
     },
